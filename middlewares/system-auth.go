@@ -6,6 +6,6 @@ import (
 
 func SystemAuth() gin.HandlerFunc {
 	return gin.BasicAuth(gin.Accounts{
-		"Harsh": "123456",
+		"Aaditya": "123456",
 	})
 }
